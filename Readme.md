@@ -34,8 +34,7 @@
 
 [flickr](https://www.flickr.com/)
 
-3D模型:
-https://3d.si.edu/corals
+[3d Digitization](https://3d.si.edu/corals) (3D模型)
 
 
 [1-1]:https://www.inaturalist.org/taxa/93264-Acropora-grandis/browse_photos?quality_grade=any

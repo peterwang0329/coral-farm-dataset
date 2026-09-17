@@ -1,6 +1,46 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# 訓練圖片（原始資料集）
 images/
-train/
+train/images/
+
+# 訓練模型權重檔
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# 模型子資料夾（訓練結果，含 weights/labels/runs）
+train/models/yolov8/
+train/models/yolov8_2/
+train/models/yolov8_2()/
+train/models/yolov8_3/
+train/models/yolov8_4/
+train/models/yolov8_5/
+train/models/yolov8_Amphiprion/
+train/models/yolov8_Coral/
+train/runs/
+
+# 訓練 log 檔
+train/debug_log.txt
+train/validation_log.txt
+train/logs/
+
+# spider 爬蟲資料夾
+spider/
+
+# label 工具腳本
 label/
+
+# 學習筆記
+學習筆記/
+
+# 影片
 *.mp4
+
+# 系統檔
+.DS_Store
+Thumbs.db
