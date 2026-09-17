@@ -1,0 +1,25 @@
+path: C:\Users\peter\Desktop\program\spider\train\models\yolov8_Amphiprion
+train: images/train
+val: images/val
+
+# 資料增強設定
+augment:
+  hsv_h: 0.015  # 色調增強因子
+  hsv_s: 0.7    # 飽和度增強因子
+  hsv_v: 0.4    # 亮度增強因子
+  degrees: 30   # 旋轉角度 (+/- deg)
+  translate: 0.1  # 平移 (+/- fraction)
+  scale: 0.5    # 縮放 (+/- gain)
+  shear: 0.0    # 剪切 (+/- deg)
+  perspective: 0.0  # 透視變換 (+/- fraction)
+  flipud: 0.5   # 上下翻轉概率 (0-1)
+  fliplr: 0.5   # 左右翻轉概率 (0-1)
+  mosaic: 1.0   # 馬賽克增強概率 (0-1)
+  mixup: 0.25   # mixup概率 (0-1)
+  copy_paste: 0.1  # 隨機複製粘貼概率 (0-1)
+
+names: 
+  0: 'Amphiprion_clarkii'
+  1: 'Amphiprion_frenatus'
+  2: 'Amphiprion_ocellaris'
+

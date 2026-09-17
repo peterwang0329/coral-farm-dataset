@@ -1,0 +1,18 @@
+path: C:\Users\peter\Desktop\program\spider\train\models\yolov8
+train: images/train
+val: images/val
+
+names: 
+  0: 'Amphiprion_clarkii'
+  1: 'Amphiprion_frenatus'
+  2: 'Amphiprion_ocellaris'
+  3: 'Acropora_hyacinthus'
+  4: 'Acropora_pruinosa'
+  5: 'Euphyllia_glabrescens'
+  6: 'Fimbriaphyllia_ancora'
+  7: 'Galaxea_astreata'
+  8: 'Nephthea_sp'
+  9: 'Pavona_decussata'
+  10: 'Porites_lobata'
+  11: 'Stylophora_pistillata'
+  12: 'Turbinaria_reniformis'

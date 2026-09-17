@@ -14,14 +14,22 @@ train/images/
 *.engine
 
 # 模型子資料夾（訓練結果，含 weights/labels/runs）
-train/models/yolov8/
-train/models/yolov8_2/
-train/models/yolov8_2()/
-train/models/yolov8_3/
-train/models/yolov8_4/
-train/models/yolov8_5/
-train/models/yolov8_Amphiprion/
-train/models/yolov8_Coral/
+train/models/yolov8/images/
+train/models/yolov8_2/images/
+train/models/yolov8_2()/images/
+train/models/yolov8_3/images/
+train/models/yolov8_4/images/
+train/models/yolov8_5/images/
+train/models/yolov8/labels/
+train/models/yolov8_2/labels/
+train/models/yolov8_2()/labels/
+train/models/yolov8_3/labels/
+train/models/yolov8_4/labels/
+train/models/yolov8_5/labels/
+train/models/yolov8_Amphiprion/images/
+train/models/yolov8_Amphiprion/labels/
+train/models/yolov8_Coral/images/
+train/models/yolov8_Coral/labels/
 train/runs/
 
 # 訓練 log 檔
